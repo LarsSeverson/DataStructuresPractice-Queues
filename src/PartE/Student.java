@@ -2,6 +2,7 @@ package PartE;
 import java.util.*;
 
 public final class Student implements Comparable<Student> {
+
     private final String firstName;
     private final String lastName;
     private static String priority;
@@ -59,10 +60,31 @@ public final class Student implements Comparable<Student> {
         // default return
         return 0;
     }
+    public String getFirstName() {
+        return firstName;
+    }
 
-    // to print the variables for student
-    @Override
-    public String toString() {
-        return "\t\t" + firstName + "\t" + lastName + "\t" + id + "\t" + String.format("%.2f", gpa) + "\t" + smallQuestions + "\t" + bigQuestions;
+    public String getLastName() {
+        return lastName;
+    }
+
+    public static String getPriority() {
+        return priority;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getSmallQuestions() {
+        return smallQuestions;
+    }
+
+    public int getBigQuestions() {
+        return bigQuestions;
+    }
+
+    public double getGpa() {
+        return gpa;
     }
 }
