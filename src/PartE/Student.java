@@ -1,6 +1,12 @@
 package PartE;
-import java.util.*;
+/*
+    Author: Lars Severson
+    Date: 11/3/2022
+    Description:
 
+    The student class that implements the Comparable class with use of Student
+ */
+import java.util.*;
 public final class Student implements Comparable<Student> {
 
     private final String firstName;
@@ -67,11 +73,6 @@ public final class Student implements Comparable<Student> {
     public String getLastName() {
         return lastName;
     }
-
-    public static String getPriority() {
-        return priority;
-    }
-
     public int getId() {
         return id;
     }

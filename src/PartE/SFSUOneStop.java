@@ -3,6 +3,10 @@ package PartE;
  *
  * Part E
  *
+ * Author: Lars Severson
+ * Description:
+ * The SFSUOneStop class that will be responsible for displaying the student information
+ * with respect to the priority provided.
  */
 
 import java.util.PriorityQueue;

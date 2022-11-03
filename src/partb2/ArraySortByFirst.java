@@ -1,7 +1,6 @@
 /**
  *
  * Part B.2
- *
  * Please do not change any code in the main method 
  *
  */
